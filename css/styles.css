@@ -282,10 +282,9 @@ header {
 
 .container2 {
     width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    max-width: 1170px;
+    margin: auto;
     background-image: url('../img/Top-trend.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -308,7 +307,7 @@ header {
     font-family: "Sansation";
     font-size: 60px;
     color: var(--text-color);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .section-header p {
@@ -518,13 +517,13 @@ header {
 .pagination {
     display: flex;
     justify-content: center;
-    gap: 5px;
-    margin-top: 20px;
+    gap: 15px;
+    margin-top: 25px;
 }
 
 .pagination-dot {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: #ddd;
     cursor: pointer;
@@ -561,7 +560,6 @@ header {
 
 .community-content {
     flex: 1;
-    padding: 20px;
     align-items: right;
     text-align: center;
 }
@@ -569,7 +567,7 @@ header {
 .community-content h2 {
     font-family: "Sansation";
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 65px;
     margin-bottom: 23px;
     color: var(--text-color);
     text-align: right;
@@ -578,10 +576,10 @@ header {
 .community-content p {
     font-family: "Sansation";
     font-weight: lighter;
-    color: #666;
+    color: #5f5d5d;
     margin-bottom: 30px;
     text-align: right;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .join-btn {
